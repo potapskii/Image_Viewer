@@ -20,8 +20,7 @@ class UI(QMainWindow):
         # Click The Dropdown Box
         self.open_btn.clicked.connect(self.clicker)
         self.show()
-
-    # button handdler
+     # button handdler
     def clicker(self):
         fname = QFileDialog.getOpenFileName(self, "Open File", "c:\\User\\PC\\Pictures\\screnn", "All Files (*);;PNG Files (*.png)")
         # open the image
