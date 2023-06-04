@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-str = "Rusel Susel Test"
+width, height = 591, 581
